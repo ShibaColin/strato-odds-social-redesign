@@ -1,0 +1,1574 @@
+{
+  "algorithm": "sha256",
+  "captured_date": "2026-11-04",
+  "timezone": "America/New_York",
+  "source_label": "STRATO Odds Social Redesign \u2014 live/rewards refinement",
+  "file_count": 313,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6586,
+      "sha256": "a01ab7665c9a8f25d96c5b62a791e49d5d1d5a7fface77e3950ef19b4e46b559"
+    },
+    {
+      "path": "RESEARCH.md",
+      "bytes": 12477,
+      "sha256": "5105dfabc89e1bd656e821057b893f2d115c8d0d92ff8d54177bf696822677c7"
+    },
+    {
+      "path": "Start-STRATO-Odds.command",
+      "bytes": 204,
+      "sha256": "aab8fc3f9b2812e961225bf5c57c500599129b9cfcab8288bbdda907b934e83e"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3264,
+      "sha256": "5bfe6582944ae6a2249e4adee1497515e2fefa5d9eb79ddcec5f1517f660e59b"
+    },
+    {
+      "path": "cache_assets.py",
+      "bytes": 1211,
+      "sha256": "d5c34b9c3500061b5392742c5cfcf34692e5bb82baf84992cae160116fadd05f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 341,
+      "sha256": "fc6374c1e51d0d45d5d0a3b098955331d47fd762b61237ede455780a5ea5e246"
+    },
+    {
+      "path": "public/app.mjs",
+      "bytes": 107028,
+      "sha256": "8e02347b7cbdf6c077ed1f1bf00540077d36e25ada2b95c26df15fceecb189ff"
+    },
+    {
+      "path": "public/asset-feed.mjs",
+      "bytes": 4693,
+      "sha256": "f7450770e5f6678940bfe9b65b3999e96363de6e43f017fa5792b1b11ef0b48b"
+    },
+    {
+      "path": "public/assets/Inter-LICENSE.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "public/assets/Inter.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "public/assets/icon.png",
+      "bytes": 6100,
+      "sha256": "6284f8c0ef0ca84453a92578f0cbfa645fc8552a3dbc1d1f0b865006091c901f"
+    },
+    {
+      "path": "public/assets/markets/poly-103161.jpg",
+      "bytes": 177899,
+      "sha256": "44603caa5a0dab041c2535a1a848cf20e701ecd3984518eaabd9c7f9beb8e223"
+    },
+    {
+      "path": "public/assets/markets/poly-1034268.jpg",
+      "bytes": 61218,
+      "sha256": "0d124567238832c1c0a37db801bbed7bdbddbd3b6d0fb8356e6c2b69afd5c76b"
+    },
+    {
+      "path": "public/assets/markets/poly-103469.jpg",
+      "bytes": 8917,
+      "sha256": "92f2a028fe9823ab1b1e018c0b25fba2d81954120fc86075e9a702f4e1d0ef11"
+    },
+    {
+      "path": "public/assets/markets/poly-1038648.jpg",
+      "bytes": 40725,
+      "sha256": "8adbee59052ab9037cecc37486502fc7f9798acdce249f1a11ee9755abe7a12a"
+    },
+    {
+      "path": "public/assets/markets/poly-1040303.png",
+      "bytes": 3058,
+      "sha256": "120b21c4376c84dd0ccca9bfd51caf4fad9f1e043ad4b0b2431ac8c69cef8800"
+    },
+    {
+      "path": "public/assets/markets/poly-1040632.jpg",
+      "bytes": 6753,
+      "sha256": "a491db654ab8b172a6e01a15ca02731e885db71f73c5202666d217f1787687ba"
+    },
+    {
+      "path": "public/assets/markets/poly-106193.jpg",
+      "bytes": 86341,
+      "sha256": "b26c140ae654bb332a869a5436b41049b8b2c4cd0ec464d85b286e17fb2ca681"
+    },
+    {
+      "path": "public/assets/markets/poly-1066394.jpg",
+      "bytes": 25130,
+      "sha256": "24455e324cafff6bbf4052f425d084a508983fa8082623b2cbeaec384bf4926e"
+    },
+    {
+      "path": "public/assets/markets/poly-1103684.jpg",
+      "bytes": 258532,
+      "sha256": "0708e7d93fb6bc5976b1838b051c8e1e103e1d7ebf73b46cfbeaf2f00efe23de"
+    },
+    {
+      "path": "public/assets/markets/poly-1103970.jpg",
+      "bytes": 35413,
+      "sha256": "e57e1463097d824d28a111a71009165c4e328d263af13e9fe7d538fbae18f8da"
+    },
+    {
+      "path": "public/assets/markets/poly-1105146.png",
+      "bytes": 6913,
+      "sha256": "8e34a1e85308918e17285fc628967af3eb45ae04da27ebedb6d34c3e98adb444"
+    },
+    {
+      "path": "public/assets/markets/poly-1108531.jpg",
+      "bytes": 127117,
+      "sha256": "e8f981c5af511ef7c0c9983e14321884919652fe7b0f044fae913e5f19f4b55b"
+    },
+    {
+      "path": "public/assets/markets/poly-1148815.png",
+      "bytes": 26296,
+      "sha256": "aead0753fe91988a1e0339b4a0614704397f9ea1b21981fdd4558d1dfda17d20"
+    },
+    {
+      "path": "public/assets/markets/poly-1148818.png",
+      "bytes": 26296,
+      "sha256": "aead0753fe91988a1e0339b4a0614704397f9ea1b21981fdd4558d1dfda17d20"
+    },
+    {
+      "path": "public/assets/markets/poly-1148822.png",
+      "bytes": 26296,
+      "sha256": "aead0753fe91988a1e0339b4a0614704397f9ea1b21981fdd4558d1dfda17d20"
+    },
+    {
+      "path": "public/assets/markets/poly-1148825.png",
+      "bytes": 26296,
+      "sha256": "aead0753fe91988a1e0339b4a0614704397f9ea1b21981fdd4558d1dfda17d20"
+    },
+    {
+      "path": "public/assets/markets/poly-1148827.png",
+      "bytes": 26296,
+      "sha256": "aead0753fe91988a1e0339b4a0614704397f9ea1b21981fdd4558d1dfda17d20"
+    },
+    {
+      "path": "public/assets/markets/poly-1148829.png",
+      "bytes": 26296,
+      "sha256": "aead0753fe91988a1e0339b4a0614704397f9ea1b21981fdd4558d1dfda17d20"
+    },
+    {
+      "path": "public/assets/markets/poly-1161680.jpg",
+      "bytes": 75328,
+      "sha256": "b2cb12ed24f95839e12129b665783f2f51daedd8127552dfbec879019c09e21b"
+    },
+    {
+      "path": "public/assets/markets/poly-1188312.jpg",
+      "bytes": 24665,
+      "sha256": "6c733ec43ab123b579ee9f5f633b70ae2f4685bb4e7ca345a0c50d194b3bce07"
+    },
+    {
+      "path": "public/assets/markets/poly-1188320.jpg",
+      "bytes": 24665,
+      "sha256": "6c733ec43ab123b579ee9f5f633b70ae2f4685bb4e7ca345a0c50d194b3bce07"
+    },
+    {
+      "path": "public/assets/markets/poly-1194699.jpg",
+      "bytes": 787613,
+      "sha256": "f1c493ec9a6651ca4c2a7daa56b0194a30d7301fe2ae47a485521fcbf3a434ac"
+    },
+    {
+      "path": "public/assets/markets/poly-1230571.jpg",
+      "bytes": 98110,
+      "sha256": "ca3ca47b8c2d378ed21e16f6e029d76ba6f0a5f640e968caecb4bea135454960"
+    },
+    {
+      "path": "public/assets/markets/poly-1230776.png",
+      "bytes": 188978,
+      "sha256": "e806400d94e5605fecbde5579eeb7e33f9565d0330d76c5079ef13577bafc30e"
+    },
+    {
+      "path": "public/assets/markets/poly-1231209.png",
+      "bytes": 49529,
+      "sha256": "87b840dc95b8be0f0fc0f2e0bc8d44e139bbebeef59e6f97e7be7d774191d8b5"
+    },
+    {
+      "path": "public/assets/markets/poly-1231225.png",
+      "bytes": 49529,
+      "sha256": "87b840dc95b8be0f0fc0f2e0bc8d44e139bbebeef59e6f97e7be7d774191d8b5"
+    },
+    {
+      "path": "public/assets/markets/poly-1235017.png",
+      "bytes": 49529,
+      "sha256": "87b840dc95b8be0f0fc0f2e0bc8d44e139bbebeef59e6f97e7be7d774191d8b5"
+    },
+    {
+      "path": "public/assets/markets/poly-1235018.png",
+      "bytes": 49529,
+      "sha256": "87b840dc95b8be0f0fc0f2e0bc8d44e139bbebeef59e6f97e7be7d774191d8b5"
+    },
+    {
+      "path": "public/assets/markets/poly-1243958.jpg",
+      "bytes": 8903,
+      "sha256": "6176f8594f072a2cc0f6089e5b3232ba7e8e9e6d80d37116f563ba6d4e5455ed"
+    },
+    {
+      "path": "public/assets/markets/poly-1250295.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1250299.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1250301.png",
+      "bytes": 8031,
+      "sha256": "ded04b19e699dca434b53f28218189b278df93e8ad531e31184aa2bcd62a16da"
+    },
+    {
+      "path": "public/assets/markets/poly-1260044.png",
+      "bytes": 40626,
+      "sha256": "fbcc31bcadca40a22a526c2a2d69ed4a9937c00bf894be62e870f740d375c462"
+    },
+    {
+      "path": "public/assets/markets/poly-1262102.png",
+      "bytes": 31596,
+      "sha256": "6eb2e9eb17a82c272b778696b05a84c3fa6939b1dc4bbb291230dd3c62793169"
+    },
+    {
+      "path": "public/assets/markets/poly-1262105.png",
+      "bytes": 31596,
+      "sha256": "6eb2e9eb17a82c272b778696b05a84c3fa6939b1dc4bbb291230dd3c62793169"
+    },
+    {
+      "path": "public/assets/markets/poly-1262243.png",
+      "bytes": 18905,
+      "sha256": "43a03c2e7289b6bd4cd1a81772797b597d6d58755e05e44e0099dd712f04ec9e"
+    },
+    {
+      "path": "public/assets/markets/poly-1263843.jpg",
+      "bytes": 39407,
+      "sha256": "f3e81c41fa3545841d8bf671974dc4df5eae72fbcdc774dc5ec3dec0b07ebf60"
+    },
+    {
+      "path": "public/assets/markets/poly-1268689.jpg",
+      "bytes": 55993,
+      "sha256": "d790b46a53b0f1fee15b31e2641ebe665af6e9ea3321441ba0b72c2bbc94e946"
+    },
+    {
+      "path": "public/assets/markets/poly-1268803.jpg",
+      "bytes": 238940,
+      "sha256": "2268b3cb74e8f951160d5b0e4e69a66c78415099fad52813bb282561d4df2c13"
+    },
+    {
+      "path": "public/assets/markets/poly-1272506.jpg",
+      "bytes": 31349,
+      "sha256": "0cf47be7ef3ba7f08e8ebb6857774a8bf27f245204e28ead53e862ef5b03d9f5"
+    },
+    {
+      "path": "public/assets/markets/poly-1272507.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1272514.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1274180.png",
+      "bytes": 40626,
+      "sha256": "fbcc31bcadca40a22a526c2a2d69ed4a9937c00bf894be62e870f740d375c462"
+    },
+    {
+      "path": "public/assets/markets/poly-1274293.png",
+      "bytes": 40626,
+      "sha256": "fbcc31bcadca40a22a526c2a2d69ed4a9937c00bf894be62e870f740d375c462"
+    },
+    {
+      "path": "public/assets/markets/poly-1278355.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1278505.png",
+      "bytes": 19695,
+      "sha256": "41ac6adda3cc42a68b03054117d3b51a2daf520e63891c477179aedcd296b64d"
+    },
+    {
+      "path": "public/assets/markets/poly-1280348.jpg",
+      "bytes": 261290,
+      "sha256": "7c9a5248c69fde253415d514952d8a68574bb026b916e2d6c5888d6727a2e99e"
+    },
+    {
+      "path": "public/assets/markets/poly-1280524.png",
+      "bytes": 11973,
+      "sha256": "77e54d69e7192f386f4874e2fc1bfdc4949fbdffc43747a22f00853c94b96bff"
+    },
+    {
+      "path": "public/assets/markets/poly-1283785.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1285461.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1285462.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1286709.jpg",
+      "bytes": 39407,
+      "sha256": "f3e81c41fa3545841d8bf671974dc4df5eae72fbcdc774dc5ec3dec0b07ebf60"
+    },
+    {
+      "path": "public/assets/markets/poly-1288801.jpg",
+      "bytes": 85206,
+      "sha256": "754dc30c181ef64df3f0eaaa6ff0aa6e7b7feb289796030f20d25e1921c39cfd"
+    },
+    {
+      "path": "public/assets/markets/poly-1289205.jpg",
+      "bytes": 39407,
+      "sha256": "f3e81c41fa3545841d8bf671974dc4df5eae72fbcdc774dc5ec3dec0b07ebf60"
+    },
+    {
+      "path": "public/assets/markets/poly-1289492.jpg",
+      "bytes": 28298,
+      "sha256": "bc197b7195496b2792ca83b99fb8dab356382debcac8a383ee5432768fef22be"
+    },
+    {
+      "path": "public/assets/markets/poly-1290026.png",
+      "bytes": 58606,
+      "sha256": "75154fbe8e4f6115233398151e215ea78370a612b7ac917e099ad2475c65d0ce"
+    },
+    {
+      "path": "public/assets/markets/poly-1290031.png",
+      "bytes": 58606,
+      "sha256": "75154fbe8e4f6115233398151e215ea78370a612b7ac917e099ad2475c65d0ce"
+    },
+    {
+      "path": "public/assets/markets/poly-1290036.png",
+      "bytes": 58606,
+      "sha256": "75154fbe8e4f6115233398151e215ea78370a612b7ac917e099ad2475c65d0ce"
+    },
+    {
+      "path": "public/assets/markets/poly-1290048.png",
+      "bytes": 58606,
+      "sha256": "75154fbe8e4f6115233398151e215ea78370a612b7ac917e099ad2475c65d0ce"
+    },
+    {
+      "path": "public/assets/markets/poly-1290063.png",
+      "bytes": 58606,
+      "sha256": "75154fbe8e4f6115233398151e215ea78370a612b7ac917e099ad2475c65d0ce"
+    },
+    {
+      "path": "public/assets/markets/poly-1291728.png",
+      "bytes": 8655,
+      "sha256": "f2318721ceeb5e5392a39aa1a245b50d21c4961556f8826c79be70a83ceaee31"
+    },
+    {
+      "path": "public/assets/markets/poly-1292800.jpg",
+      "bytes": 28298,
+      "sha256": "bc197b7195496b2792ca83b99fb8dab356382debcac8a383ee5432768fef22be"
+    },
+    {
+      "path": "public/assets/markets/poly-1292829.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1292830.jpg",
+      "bytes": 31349,
+      "sha256": "0cf47be7ef3ba7f08e8ebb6857774a8bf27f245204e28ead53e862ef5b03d9f5"
+    },
+    {
+      "path": "public/assets/markets/poly-1292832.png",
+      "bytes": 7173,
+      "sha256": "b27ddd826eab2357747a98efbbd55fe707088a63d6c540b59192e59bc7f78874"
+    },
+    {
+      "path": "public/assets/markets/poly-1293044.jpg",
+      "bytes": 690948,
+      "sha256": "f3fc74d51747330e1089e6d221a33a43359f26ec3e84ab0a6d952c830215f7c5"
+    },
+    {
+      "path": "public/assets/markets/poly-1293461.jpg",
+      "bytes": 1155446,
+      "sha256": "6f70e505b53770e335576c877cf1d51497439910e687f9b450ec53538b7c43d8"
+    },
+    {
+      "path": "public/assets/markets/poly-1293462.jpg",
+      "bytes": 845326,
+      "sha256": "62a36b5b566ed09842f459db8d49624f9e9f6286d3ed791d037727d6ef802de1"
+    },
+    {
+      "path": "public/assets/markets/poly-1293463.jpg",
+      "bytes": 96827,
+      "sha256": "ca608ef0224cbecf3adcdb6363de7979f99bea56b787fcb5795560e2924a1b6e"
+    },
+    {
+      "path": "public/assets/markets/poly-1293464.jpg",
+      "bytes": 543569,
+      "sha256": "a9b98ad8918e4f12389f12627d4853ab9d693b54e22290fba7e0b1db842a0ca1"
+    },
+    {
+      "path": "public/assets/markets/poly-1293465.jpg",
+      "bytes": 252997,
+      "sha256": "9d5748875612f67894ac720cc773958156fd7b76fec0ee70aae337084c4995de"
+    },
+    {
+      "path": "public/assets/markets/poly-1293466.jpg",
+      "bytes": 49325,
+      "sha256": "5c6fffec332b098122d9eae61958e6155087008ba122987945f286b9c5c56d48"
+    },
+    {
+      "path": "public/assets/markets/poly-1293467.jpg",
+      "bytes": 192848,
+      "sha256": "7b94912c1c2c877d458bbc8033d26a133505b0b156174a8bfaa783f90ded6a97"
+    },
+    {
+      "path": "public/assets/markets/poly-1294186.jpg",
+      "bytes": 189720,
+      "sha256": "7e06f3c8689fe6f8e0a7c7b5ca3efa4859d31b6a3288f75f7d7e204b75fa52c7"
+    },
+    {
+      "path": "public/assets/markets/poly-1294188.jpg",
+      "bytes": 204852,
+      "sha256": "2d780ca4eb0b1436245e45313100aa2efd44dce6bbf6dbef91d3219637c64642"
+    },
+    {
+      "path": "public/assets/markets/poly-1294189.jpg",
+      "bytes": 163254,
+      "sha256": "9d8ab75d5568e202701e256f3bdd52edc285ee0744e5f9af8359f4b9f14c851a"
+    },
+    {
+      "path": "public/assets/markets/poly-1294725.jpg",
+      "bytes": 447592,
+      "sha256": "450aa713e4170c512cfe137006172ac940df0f20dfb1d70087c6b9f580173c72"
+    },
+    {
+      "path": "public/assets/markets/poly-1298065.jpg",
+      "bytes": 557674,
+      "sha256": "a66aae539082a95ce00d9994937e8ef8e7984e4b2735c0eb4f14af7a4367055a"
+    },
+    {
+      "path": "public/assets/markets/poly-1298075.jpg",
+      "bytes": 557674,
+      "sha256": "a66aae539082a95ce00d9994937e8ef8e7984e4b2735c0eb4f14af7a4367055a"
+    },
+    {
+      "path": "public/assets/markets/poly-1298076.jpg",
+      "bytes": 557674,
+      "sha256": "a66aae539082a95ce00d9994937e8ef8e7984e4b2735c0eb4f14af7a4367055a"
+    },
+    {
+      "path": "public/assets/markets/poly-1298138.jpg",
+      "bytes": 557674,
+      "sha256": "a66aae539082a95ce00d9994937e8ef8e7984e4b2735c0eb4f14af7a4367055a"
+    },
+    {
+      "path": "public/assets/markets/poly-1298400.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1299077.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1299081.jpg",
+      "bytes": 31349,
+      "sha256": "0cf47be7ef3ba7f08e8ebb6857774a8bf27f245204e28ead53e862ef5b03d9f5"
+    },
+    {
+      "path": "public/assets/markets/poly-1299331.jpg",
+      "bytes": 602869,
+      "sha256": "923018cb15491ec6a1d0cf8cf59c4cb9cbd76e750f0b480cfb4b8435354f86e4"
+    },
+    {
+      "path": "public/assets/markets/poly-1299332.jpg",
+      "bytes": 36168,
+      "sha256": "4092bf42f6fb0f2ca2b326d693ac26753edc1628130d50a12c7ed9e7f4e1f185"
+    },
+    {
+      "path": "public/assets/markets/poly-1299334.jpg",
+      "bytes": 60227,
+      "sha256": "719d3b9c7705a6bc1b5054cf91bab2f57b95b834294f37fcf80df71fb24d1020"
+    },
+    {
+      "path": "public/assets/markets/poly-1299335.jpg",
+      "bytes": 69613,
+      "sha256": "8b64fb56aff197b1e1496d3e4eda95788577093651262806b30d3ed0e259271f"
+    },
+    {
+      "path": "public/assets/markets/poly-1299338.jpg",
+      "bytes": 1092288,
+      "sha256": "97a0633ec4c98a81bb2c08072343a515ec02ed28ea874442b5f2be3f7053a062"
+    },
+    {
+      "path": "public/assets/markets/poly-1299339.jpg",
+      "bytes": 690948,
+      "sha256": "f3fc74d51747330e1089e6d221a33a43359f26ec3e84ab0a6d952c830215f7c5"
+    },
+    {
+      "path": "public/assets/markets/poly-1299340.png",
+      "bytes": 139234,
+      "sha256": "af07b398b919c448ad07a1bb7f309e3457bcbdfdd68f23b13bfc47ad71c7287a"
+    },
+    {
+      "path": "public/assets/markets/poly-1299341.jpg",
+      "bytes": 1990635,
+      "sha256": "8f9bfb880abbab5aa6cd19a46def54b561f4219ddf9d4ee08b8accce14a622e7"
+    },
+    {
+      "path": "public/assets/markets/poly-1299357.jpg",
+      "bytes": 231125,
+      "sha256": "ba81c68b3ce7b60c962b5da1582a6c5aaed35c05d5b475b3c68c18d8d3542371"
+    },
+    {
+      "path": "public/assets/markets/poly-1299359.jpg",
+      "bytes": 87773,
+      "sha256": "3a8ec0c4b4913b12ff7fd8545ebee46096fd804f422e490d4f72511036582034"
+    },
+    {
+      "path": "public/assets/markets/poly-1302190.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1302191.jpg",
+      "bytes": 39407,
+      "sha256": "f3e81c41fa3545841d8bf671974dc4df5eae72fbcdc774dc5ec3dec0b07ebf60"
+    },
+    {
+      "path": "public/assets/markets/poly-1302854.jpg",
+      "bytes": 47881,
+      "sha256": "b572eaa02b470245684004d1934c354a6aad97d640792f29ffa95d221dc6b954"
+    },
+    {
+      "path": "public/assets/markets/poly-1303853.jpg",
+      "bytes": 4635,
+      "sha256": "51b1036ee79571c0d7572ea7a4419ef9deced529e0f89fc20dda26933074d606"
+    },
+    {
+      "path": "public/assets/markets/poly-1305374.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1305435.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1305732.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1305746.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1305767.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1305781.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1305808.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1305832.jpg",
+      "bytes": 98110,
+      "sha256": "ca3ca47b8c2d378ed21e16f6e029d76ba6f0a5f640e968caecb4bea135454960"
+    },
+    {
+      "path": "public/assets/markets/poly-1305850.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1305851.jpg",
+      "bytes": 39407,
+      "sha256": "f3e81c41fa3545841d8bf671974dc4df5eae72fbcdc774dc5ec3dec0b07ebf60"
+    },
+    {
+      "path": "public/assets/markets/poly-1305857.jpg",
+      "bytes": 31349,
+      "sha256": "0cf47be7ef3ba7f08e8ebb6857774a8bf27f245204e28ead53e862ef5b03d9f5"
+    },
+    {
+      "path": "public/assets/markets/poly-1305982.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1306237.png",
+      "bytes": 3671,
+      "sha256": "0d6ac1acf6fa739297a85929f714d92824c3e041dffcfaab591fd5608c489825"
+    },
+    {
+      "path": "public/assets/markets/poly-1306544.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1306545.png",
+      "bytes": 38976,
+      "sha256": "47a98d0058be7f8141a8d950439c87b37ad709eda2ef328f18a1187396863fdc"
+    },
+    {
+      "path": "public/assets/markets/poly-1306550.png",
+      "bytes": 3671,
+      "sha256": "0d6ac1acf6fa739297a85929f714d92824c3e041dffcfaab591fd5608c489825"
+    },
+    {
+      "path": "public/assets/markets/poly-1306625.png",
+      "bytes": 4354,
+      "sha256": "deb6e5f2155d9562bc1d00caf6b5f0bb0d3e345ed7e449d5fd8e7ec3acf867b9"
+    },
+    {
+      "path": "public/assets/markets/poly-1306631.png",
+      "bytes": 7173,
+      "sha256": "b27ddd826eab2357747a98efbbd55fe707088a63d6c540b59192e59bc7f78874"
+    },
+    {
+      "path": "public/assets/markets/poly-1306695.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1306698.png",
+      "bytes": 7173,
+      "sha256": "b27ddd826eab2357747a98efbbd55fe707088a63d6c540b59192e59bc7f78874"
+    },
+    {
+      "path": "public/assets/markets/poly-1306732.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1306821.png",
+      "bytes": 38976,
+      "sha256": "47a98d0058be7f8141a8d950439c87b37ad709eda2ef328f18a1187396863fdc"
+    },
+    {
+      "path": "public/assets/markets/poly-1307037.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1307312.png",
+      "bytes": 3671,
+      "sha256": "0d6ac1acf6fa739297a85929f714d92824c3e041dffcfaab591fd5608c489825"
+    },
+    {
+      "path": "public/assets/markets/poly-1307366.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1307373.png",
+      "bytes": 38976,
+      "sha256": "47a98d0058be7f8141a8d950439c87b37ad709eda2ef328f18a1187396863fdc"
+    },
+    {
+      "path": "public/assets/markets/poly-1307723.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1307724.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1307899.png",
+      "bytes": 3671,
+      "sha256": "0d6ac1acf6fa739297a85929f714d92824c3e041dffcfaab591fd5608c489825"
+    },
+    {
+      "path": "public/assets/markets/poly-1307969.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1307981.png",
+      "bytes": 3671,
+      "sha256": "0d6ac1acf6fa739297a85929f714d92824c3e041dffcfaab591fd5608c489825"
+    },
+    {
+      "path": "public/assets/markets/poly-1309422.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1309436.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1309472.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1309483.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1309783.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1310505.png",
+      "bytes": 4354,
+      "sha256": "deb6e5f2155d9562bc1d00caf6b5f0bb0d3e345ed7e449d5fd8e7ec3acf867b9"
+    },
+    {
+      "path": "public/assets/markets/poly-1310776.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1310777.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1310868.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1310907.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1310908.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1310948.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1310949.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311009.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311010.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311011.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311012.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311087.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311088.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311097.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1311115.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1311128.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311129.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311180.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311181.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311243.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311244.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311245.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311246.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311303.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311304.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311341.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311344.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311385.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311386.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311481.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311482.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311483.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311484.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311565.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311566.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311603.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311604.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311644.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311645.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311676.png",
+      "bytes": 38976,
+      "sha256": "47a98d0058be7f8141a8d950439c87b37ad709eda2ef328f18a1187396863fdc"
+    },
+    {
+      "path": "public/assets/markets/poly-1311679.png",
+      "bytes": 437647,
+      "sha256": "4965d9944873e0314bfb5e3b29a33e2d9b911d2e5780be09d5cd3dfda2f42c33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311699.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311700.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311701.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311703.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-1311717.png",
+      "bytes": 38976,
+      "sha256": "47a98d0058be7f8141a8d950439c87b37ad709eda2ef328f18a1187396863fdc"
+    },
+    {
+      "path": "public/assets/markets/poly-1311719.png",
+      "bytes": 7995,
+      "sha256": "4361d2311820efd3f3871fbcf9c1209b36345a5499de80db2cd6deeb8a965c72"
+    },
+    {
+      "path": "public/assets/markets/poly-1311724.png",
+      "bytes": 437647,
+      "sha256": "4965d9944873e0314bfb5e3b29a33e2d9b911d2e5780be09d5cd3dfda2f42c33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311725.png",
+      "bytes": 4354,
+      "sha256": "deb6e5f2155d9562bc1d00caf6b5f0bb0d3e345ed7e449d5fd8e7ec3acf867b9"
+    },
+    {
+      "path": "public/assets/markets/poly-1311726.png",
+      "bytes": 116321,
+      "sha256": "7e519b3e6634227392358fbad625a0f7ef0a33196544c0c3793aea3bf47f5f11"
+    },
+    {
+      "path": "public/assets/markets/poly-1311729.png",
+      "bytes": 7173,
+      "sha256": "b27ddd826eab2357747a98efbbd55fe707088a63d6c540b59192e59bc7f78874"
+    },
+    {
+      "path": "public/assets/markets/poly-1311732.jpg",
+      "bytes": 31349,
+      "sha256": "0cf47be7ef3ba7f08e8ebb6857774a8bf27f245204e28ead53e862ef5b03d9f5"
+    },
+    {
+      "path": "public/assets/markets/poly-1311735.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-1311747.png",
+      "bytes": 5810,
+      "sha256": "80a388a2a274b3f72161cd21e560c6a4f712f454e4d34431658cce9291e8bb33"
+    },
+    {
+      "path": "public/assets/markets/poly-1311748.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-145916.jpg",
+      "bytes": 27639,
+      "sha256": "019eb3c5c1c606bb5d735faec5d3e6d66f926b083a3c1199903fb067e2c9d1d2"
+    },
+    {
+      "path": "public/assets/markets/poly-153719.jpg",
+      "bytes": 23750,
+      "sha256": "678eae04c24f94ab2aef090397198f77b828d268e94a7a6ba9c345b17b210691"
+    },
+    {
+      "path": "public/assets/markets/poly-158505.jpg",
+      "bytes": 65536,
+      "sha256": "ebcd34fdfcb304600e31ebc29241e6b75be0f5289725cd33769bfd2d832dd169"
+    },
+    {
+      "path": "public/assets/markets/poly-191531.png",
+      "bytes": 12899,
+      "sha256": "3faa18b123417d1b9b50d214c0a2fa78918e3e3d7eaa30aacaa58725f8331d87"
+    },
+    {
+      "path": "public/assets/markets/poly-192787.png",
+      "bytes": 6372,
+      "sha256": "899d19c19b3e82ec697697d8eb7b1d8a5ddbe59e9faa45a171473225953c6698"
+    },
+    {
+      "path": "public/assets/markets/poly-192962.jpg",
+      "bytes": 20800,
+      "sha256": "6549455792aacb73be09985d3b968877b52f2a298114bca8a7e293a85408ecd5"
+    },
+    {
+      "path": "public/assets/markets/poly-214405.jpg",
+      "bytes": 4761,
+      "sha256": "3a1758dd5db85d01e6d12361a5c4cf73d90f6d77439e02ae54f16ede72b7e7dc"
+    },
+    {
+      "path": "public/assets/markets/poly-245930.jpg",
+      "bytes": 56401,
+      "sha256": "8bb346c683860afacb043b25b695b1029d8211ff8ddc5ffe719858f85a5c50a4"
+    },
+    {
+      "path": "public/assets/markets/poly-255195.jpg",
+      "bytes": 51622,
+      "sha256": "3f82bd93ef9abee0eb026a285fd64ec14067d189855b7a649c8284c349324e49"
+    },
+    {
+      "path": "public/assets/markets/poly-264031.jpg",
+      "bytes": 4761,
+      "sha256": "3a1758dd5db85d01e6d12361a5c4cf73d90f6d77439e02ae54f16ede72b7e7dc"
+    },
+    {
+      "path": "public/assets/markets/poly-30829.png",
+      "bytes": 54528,
+      "sha256": "521215f51a9922e4b8be17e05139c0488a5a89e604aa76e0f513db73e433b403"
+    },
+    {
+      "path": "public/assets/markets/poly-31195.jpg",
+      "bytes": 4988,
+      "sha256": "0c4063bd29a33a5effaa7788da2a085ddf7e1376c30dd6341827e88a5ec04e65"
+    },
+    {
+      "path": "public/assets/markets/poly-31552.png",
+      "bytes": 1149416,
+      "sha256": "b7239a07c4ee7e99e8214002908c9b65e1baecd829990b9f3f068346c27a45fe"
+    },
+    {
+      "path": "public/assets/markets/poly-31875.png",
+      "bytes": 39682,
+      "sha256": "ad3e20f8181c1be736fcf14f526f77a72cf8fbf04e415a43a01d7e80214033b2"
+    },
+    {
+      "path": "public/assets/markets/poly-32224.png",
+      "bytes": 741732,
+      "sha256": "affbee3338d95da2b75b4c935b4483a3b4cbae25bd8f97743deb88b2d3db8342"
+    },
+    {
+      "path": "public/assets/markets/poly-32225.png",
+      "bytes": 32131,
+      "sha256": "c4115b26c3cf975f4b0c7d4d10b6ebf2768013ab6de92545e33767ce437a916c"
+    },
+    {
+      "path": "public/assets/markets/poly-32228.jpg",
+      "bytes": 557674,
+      "sha256": "a66aae539082a95ce00d9994937e8ef8e7984e4b2735c0eb4f14af7a4367055a"
+    },
+    {
+      "path": "public/assets/markets/poly-34044.jpg",
+      "bytes": 182546,
+      "sha256": "922da62a54dc79abfdf32cc98081b5f47222a52257558a7b8e172763df9bbab7"
+    },
+    {
+      "path": "public/assets/markets/poly-409920.jpg",
+      "bytes": 14438,
+      "sha256": "5d905246bd602eba2cf0c126bb0c73e6747bc144f0faee9c8398e3eed112e2b7"
+    },
+    {
+      "path": "public/assets/markets/poly-435099.png",
+      "bytes": 8031,
+      "sha256": "ded04b19e699dca434b53f28218189b278df93e8ad531e31184aa2bcd62a16da"
+    },
+    {
+      "path": "public/assets/markets/poly-455875.jpg",
+      "bytes": 579521,
+      "sha256": "3f0e71f633db59a3588fd87fe66dde668190cdc37c45328ca7c3d3f47ab6eaf3"
+    },
+    {
+      "path": "public/assets/markets/poly-478277.jpg",
+      "bytes": 4678,
+      "sha256": "897a4ddddab49cf28c6ec7b0284b4681c817d9e5ecc084d031ea1c06863ae002"
+    },
+    {
+      "path": "public/assets/markets/poly-498879.png",
+      "bytes": 48428,
+      "sha256": "dd500da6a4e842b28c4ce7dc46bd48c7bf0dea8a091b6be78619336bf031529c"
+    },
+    {
+      "path": "public/assets/markets/poly-51456.jpg",
+      "bytes": 168279,
+      "sha256": "2dd6ab0d56f0dfd15790d0bc464bbcda4a71bd72cd60f147517699908afd7595"
+    },
+    {
+      "path": "public/assets/markets/poly-531532.jpg",
+      "bytes": 24665,
+      "sha256": "6c733ec43ab123b579ee9f5f633b70ae2f4685bb4e7ca345a0c50d194b3bce07"
+    },
+    {
+      "path": "public/assets/markets/poly-556382.jpg",
+      "bytes": 6753,
+      "sha256": "a491db654ab8b172a6e01a15ca02731e885db71f73c5202666d217f1787687ba"
+    },
+    {
+      "path": "public/assets/markets/poly-57096.png",
+      "bytes": 46671,
+      "sha256": "74637d59330f929a25f4ca30d13d41d6a7fa3158e4cd57899780ee8d256e6cd8"
+    },
+    {
+      "path": "public/assets/markets/poly-57111.jpg",
+      "bytes": 106287,
+      "sha256": "e4a56bc87ca4ae83631a877a305f9583a951456e7fda5762beadd46d705e7d96"
+    },
+    {
+      "path": "public/assets/markets/poly-57160.png",
+      "bytes": 143792,
+      "sha256": "19d9d585c89c7cef82a40246fba92671b936614296e38af0bcb132342bf97745"
+    },
+    {
+      "path": "public/assets/markets/poly-57161.png",
+      "bytes": 48452,
+      "sha256": "9a392b3a9a4a8533515453eee5dab453e43d485cd74215fa6f545e17a90ffe51"
+    },
+    {
+      "path": "public/assets/markets/poly-57176.png",
+      "bytes": 79622,
+      "sha256": "4e50412c347359804d6c4cb351a7cbcc6dd04f794171399508826374be625392"
+    },
+    {
+      "path": "public/assets/markets/poly-57181.png",
+      "bytes": 58984,
+      "sha256": "82505a901f08979b9c203ce4f57f98cb282961c80dff5b8d8e0909622dde183a"
+    },
+    {
+      "path": "public/assets/markets/poly-57184.png",
+      "bytes": 90865,
+      "sha256": "94bc7ecccd44d45ae4e245a917d52062c38fd8475e68ddca64074e3b151ac0f7"
+    },
+    {
+      "path": "public/assets/markets/poly-57185.png",
+      "bytes": 54694,
+      "sha256": "624174473fecfb4e97a44aa9993ce1ef1bc99cc0494b77fff5f3b8f9e0078e4d"
+    },
+    {
+      "path": "public/assets/markets/poly-57222.png",
+      "bytes": 54388,
+      "sha256": "a8ce53e2e1fb78eede4a36c09fefd7bbd7b083b93754cfda30af406526867750"
+    },
+    {
+      "path": "public/assets/markets/poly-57642.png",
+      "bytes": 48452,
+      "sha256": "9a392b3a9a4a8533515453eee5dab453e43d485cd74215fa6f545e17a90ffe51"
+    },
+    {
+      "path": "public/assets/markets/poly-57647.png",
+      "bytes": 91441,
+      "sha256": "e9a4dd11fe561f19eb9c8110041fa665e08a2e8cfd5b9ca6841d4f6a393430f5"
+    },
+    {
+      "path": "public/assets/markets/poly-57648.png",
+      "bytes": 105311,
+      "sha256": "9b26a2bba8474cdbe914371cecb82b22be8a9978ed03b4a7d57fca8f1ba51419"
+    },
+    {
+      "path": "public/assets/markets/poly-57650.png",
+      "bytes": 122336,
+      "sha256": "4a94bd7e9cd5b73b0e9b9389303c9319cda3ef073a0ef9e1ea1c4b9985c32b1a"
+    },
+    {
+      "path": "public/assets/markets/poly-57658.png",
+      "bytes": 79622,
+      "sha256": "4e50412c347359804d6c4cb351a7cbcc6dd04f794171399508826374be625392"
+    },
+    {
+      "path": "public/assets/markets/poly-57659.png",
+      "bytes": 25350,
+      "sha256": "a0fb66b29a5ca931704a6b9e3f82abf6d8df7e7e8a25bdc3000cdaf18f00b54a"
+    },
+    {
+      "path": "public/assets/markets/poly-57660.png",
+      "bytes": 90639,
+      "sha256": "781247b6320a547d16ea85ff6fb36ce022dd6d46565c34abeac498e350ff2507"
+    },
+    {
+      "path": "public/assets/markets/poly-57661.png",
+      "bytes": 71325,
+      "sha256": "c6979c47ad9180841d8da8e546ea3d2c1d4224aa948f1c0d2bb442dacf8a2120"
+    },
+    {
+      "path": "public/assets/markets/poly-57669.png",
+      "bytes": 71531,
+      "sha256": "b3c0a58ae8c37c16fe50f6bfef4a6d4496ffbbd770bd86d1a2d5d64e1fc2e5e8"
+    },
+    {
+      "path": "public/assets/markets/poly-57672.png",
+      "bytes": 54388,
+      "sha256": "a8ce53e2e1fb78eede4a36c09fefd7bbd7b083b93754cfda30af406526867750"
+    },
+    {
+      "path": "public/assets/markets/poly-57678.png",
+      "bytes": 19528,
+      "sha256": "d1ba6d910e234783bb929bd634dfeade99e2f52b7e5aaff7367291d4831f3fa7"
+    },
+    {
+      "path": "public/assets/markets/poly-57681.png",
+      "bytes": 143792,
+      "sha256": "19d9d585c89c7cef82a40246fba92671b936614296e38af0bcb132342bf97745"
+    },
+    {
+      "path": "public/assets/markets/poly-57682.png",
+      "bytes": 54694,
+      "sha256": "624174473fecfb4e97a44aa9993ce1ef1bc99cc0494b77fff5f3b8f9e0078e4d"
+    },
+    {
+      "path": "public/assets/markets/poly-59203.png",
+      "bytes": 106286,
+      "sha256": "84d085b7c10403be2a1304909b1e4e3bfab08c8016c47140f44f9d85c8868a91"
+    },
+    {
+      "path": "public/assets/markets/poly-59204.png",
+      "bytes": 147349,
+      "sha256": "cb4892788ddb3ed5a36907b85e844289bd30fb9528ea6dc90d41a6b1c745dd19"
+    },
+    {
+      "path": "public/assets/markets/poly-59233.png",
+      "bytes": 78977,
+      "sha256": "155d8e10a800c2b9f36a6ae78ba59bf955b866e1f805b4a10e2b01240f16c088"
+    },
+    {
+      "path": "public/assets/markets/poly-620025.jpg",
+      "bytes": 46752,
+      "sha256": "1580c187fff8a485663d615b541798c74836e572d2ff0764646840b82868be72"
+    },
+    {
+      "path": "public/assets/markets/poly-659671.png",
+      "bytes": 989637,
+      "sha256": "300c34f64f8d9a87c191c0d8b70bce2b1e357c28eb364b956299867006659204"
+    },
+    {
+      "path": "public/assets/markets/poly-674310.jpg",
+      "bytes": 102268,
+      "sha256": "eb356dc1df040bf8d4c6c74a5b11d046852f035edff5b777e15a77aad65b93ae"
+    },
+    {
+      "path": "public/assets/markets/poly-682083.jpg",
+      "bytes": 21563,
+      "sha256": "65dc4d30121ee15efb059e6271c13aa081f7f10111b46d5c347d0b5a4d5d7121"
+    },
+    {
+      "path": "public/assets/markets/poly-699735.jpg",
+      "bytes": 128686,
+      "sha256": "7fd24ab908e3a1bad46a2b5d90a11b6a5f311b621d1285b65740049dac133389"
+    },
+    {
+      "path": "public/assets/markets/poly-711714.jpg",
+      "bytes": 54874,
+      "sha256": "f72b5213560448a1df2a5b575cdeaf4ab67e1248e4904c5678f37092f69a1722"
+    },
+    {
+      "path": "public/assets/markets/poly-72347.png",
+      "bytes": 7582,
+      "sha256": "de60557af3d02859fd74979fdedc064d1a4f602c71892390ecab05e5bdd3d20a"
+    },
+    {
+      "path": "public/assets/markets/poly-73130.jpg",
+      "bytes": 102292,
+      "sha256": "a650df51e5676f15044bba472880355332307e4a4e9ef933dcb132d2d76cd89b"
+    },
+    {
+      "path": "public/assets/markets/poly-73969.jpg",
+      "bytes": 1029227,
+      "sha256": "f226a3374fc60d706fc0e6bc3ef3f9d51f931ab0eccf93b732d24dc39c65ce63"
+    },
+    {
+      "path": "public/assets/markets/poly-74872.jpg",
+      "bytes": 184752,
+      "sha256": "dcabc3fdd88cc85b3050b0b0d9f42e6587f2e40fa4c12ce6c96197aea05ec667"
+    },
+    {
+      "path": "public/assets/markets/poly-759150.jpg",
+      "bytes": 24665,
+      "sha256": "6c733ec43ab123b579ee9f5f633b70ae2f4685bb4e7ca345a0c50d194b3bce07"
+    },
+    {
+      "path": "public/assets/markets/poly-770450.jpg",
+      "bytes": 37633,
+      "sha256": "a319ac46350f1f29e84ba479f9322ceb55538b0e0a8c44962e99f12685a125da"
+    },
+    {
+      "path": "public/assets/markets/poly-770451.jpg",
+      "bytes": 37633,
+      "sha256": "a319ac46350f1f29e84ba479f9322ceb55538b0e0a8c44962e99f12685a125da"
+    },
+    {
+      "path": "public/assets/markets/poly-778706.jpg",
+      "bytes": 38283,
+      "sha256": "c3a66007e724d5c170cc86773c471807b17e53d1b8378064001e633f42543b8b"
+    },
+    {
+      "path": "public/assets/markets/poly-79041.jpg",
+      "bytes": 47881,
+      "sha256": "b572eaa02b470245684004d1934c354a6aad97d640792f29ffa95d221dc6b954"
+    },
+    {
+      "path": "public/assets/markets/poly-794064.png",
+      "bytes": 134708,
+      "sha256": "e595d39df5e904ad301fee58a2e2a07d8ec5a14dfc6186635543d26afb45fe3d"
+    },
+    {
+      "path": "public/assets/markets/poly-79831.jpg",
+      "bytes": 114965,
+      "sha256": "e843d2945800593c01ffe692d12560ad9c711ef61610d65b7409983247fd22d4"
+    },
+    {
+      "path": "public/assets/markets/poly-79836.jpg",
+      "bytes": 114965,
+      "sha256": "e843d2945800593c01ffe692d12560ad9c711ef61610d65b7409983247fd22d4"
+    },
+    {
+      "path": "public/assets/markets/poly-798441.png",
+      "bytes": 2560,
+      "sha256": "af16c445bc9d50dad6d1d887c25ab9ef025f93fe124b3879afb204a0aba32051"
+    },
+    {
+      "path": "public/assets/markets/poly-79905.png",
+      "bytes": 619858,
+      "sha256": "2af8e1ac19b6cdf4faa3d6daee861823c6ffd0167ec69a5430a287649905c1a4"
+    },
+    {
+      "path": "public/assets/markets/poly-79987.png",
+      "bytes": 234,
+      "sha256": "b8cce1355e99d9d18aacc6b74a1c1a5d66ec83ef241d64c0bef65e6c3ddba9cc"
+    },
+    {
+      "path": "public/assets/markets/poly-807644.png",
+      "bytes": 4061,
+      "sha256": "fe92958271d542a6754e13d924b431a91541227b3935137fc296540711b56a0c"
+    },
+    {
+      "path": "public/assets/markets/poly-81557.png",
+      "bytes": 16962,
+      "sha256": "5ec856ef036e0d3fe243f959ca5d7beca26f1076e7005bc08997ed7a3f06c5a2"
+    },
+    {
+      "path": "public/assets/markets/poly-830253.jpg",
+      "bytes": 579521,
+      "sha256": "3f0e71f633db59a3588fd87fe66dde668190cdc37c45328ca7c3d3f47ab6eaf3"
+    },
+    {
+      "path": "public/assets/markets/poly-830254.jpg",
+      "bytes": 579521,
+      "sha256": "3f0e71f633db59a3588fd87fe66dde668190cdc37c45328ca7c3d3f47ab6eaf3"
+    },
+    {
+      "path": "public/assets/markets/poly-848341.jpg",
+      "bytes": 43327,
+      "sha256": "66e3584744ce92eacfd56798aa173f1175b3918c41d703dee1fefe7a8016edb5"
+    },
+    {
+      "path": "public/assets/markets/poly-872462.jpg",
+      "bytes": 598147,
+      "sha256": "504eb71e59cc53bc8aa015683d86fb1d2959d2bb7aa47652b1562423081bf8c4"
+    },
+    {
+      "path": "public/assets/markets/poly-89502.png",
+      "bytes": 75715,
+      "sha256": "e62207daca5f4ead5835db9a4a8302969b19516b220cccac113d0dd901804150"
+    },
+    {
+      "path": "public/assets/markets/poly-89519.jpg",
+      "bytes": 31349,
+      "sha256": "0cf47be7ef3ba7f08e8ebb6857774a8bf27f245204e28ead53e862ef5b03d9f5"
+    },
+    {
+      "path": "public/assets/markets/poly-89525.png",
+      "bytes": 4931,
+      "sha256": "9137a4f423e70f1ea6b58ff8f6977cbebc568321ce834c2d3131433f8771c1c3"
+    },
+    {
+      "path": "public/assets/markets/poly-90177.jpeg",
+      "bytes": 95767,
+      "sha256": "0a84c696f751ba9938b3de8d1da3fd46b4eb182e11132d14abe931ca5dcae05f"
+    },
+    {
+      "path": "public/assets/markets/poly-90178.jpg",
+      "bytes": 104934,
+      "sha256": "763a1dc28f9f4ee7ac1486d5a50a4ce67810d503b36f4653801a5a477a0190e0"
+    },
+    {
+      "path": "public/assets/markets/poly-955999.jpg",
+      "bytes": 127117,
+      "sha256": "e8f981c5af511ef7c0c9983e14321884919652fe7b0f044fae913e5f19f4b55b"
+    },
+    {
+      "path": "public/assets/markets/poly-956789.png",
+      "bytes": 6913,
+      "sha256": "8e34a1e85308918e17285fc628967af3eb45ae04da27ebedb6d34c3e98adb444"
+    },
+    {
+      "path": "public/assets/markets/poly-956932.jpg",
+      "bytes": 70602,
+      "sha256": "0fbf236e1f1199ba1799e87939cff28ae01bd879fbc3fa25f350ed0a2d7ee2f1"
+    },
+    {
+      "path": "public/assets/markets/poly-961373.jpg",
+      "bytes": 157837,
+      "sha256": "e4367863d19ec86495ad321974f491bf7d41b6d3271d552772904a22070f92c6"
+    },
+    {
+      "path": "public/assets/markets/poly-965173.jpg",
+      "bytes": 98110,
+      "sha256": "ca3ca47b8c2d378ed21e16f6e029d76ba6f0a5f640e968caecb4bea135454960"
+    },
+    {
+      "path": "public/assets/markets/poly-991303.png",
+      "bytes": 72900,
+      "sha256": "5311861a0434fd65781196f9033afce85a491739d393a7101cb66ef523d96cb0"
+    },
+    {
+      "path": "public/assets/markets/poly-991810.png",
+      "bytes": 104068,
+      "sha256": "6686b59bc3eb3bca894b51c8cf4621e55177178146f232a894abcb15a83af904"
+    },
+    {
+      "path": "public/assets/markets/poly-994486.jpg",
+      "bytes": 17127,
+      "sha256": "b4bd36e552aa52ff9c280d51a99ec3258dc4f8c69a28eafd45f331750f9645bf"
+    },
+    {
+      "path": "public/assets/odds.png",
+      "bytes": 53709,
+      "sha256": "0c22592b68c65238e8c5a38c137cba1815afc3fa779659914b1f84bb8175f0f3"
+    },
+    {
+      "path": "public/audio/strato-liquidity.wav",
+      "bytes": 97064,
+      "sha256": "946c101d0d7ba082c561453c09fe6ae5e5f4db0d131e5ba208261f6836b1b83d"
+    },
+    {
+      "path": "public/audio/strato-trade.wav",
+      "bytes": 75014,
+      "sha256": "15ae916f4274d8d44e82aca98965919696e89479e9042bc7d36c5b161a454325"
+    },
+    {
+      "path": "public/audio/strato-win.wav",
+      "bytes": 167624,
+      "sha256": "743c55226bb3ee84b1fd6705874d560f912afcb276f389ed328bf6241b3991c4"
+    },
+    {
+      "path": "public/chart.mjs",
+      "bytes": 3854,
+      "sha256": "1e659d535b2112953506715cf3b630012a3f9081c62394b3b4e7d2ce09017757"
+    },
+    {
+      "path": "public/community.mjs",
+      "bytes": 7696,
+      "sha256": "fcfb4b72c4289577ff9bcc8404a83d85351e8106fd45e12618cc184b6c503181"
+    },
+    {
+      "path": "public/concepts.mjs",
+      "bytes": 6074,
+      "sha256": "a6a143873b7f799593f08823f01342ee52228ad0d5760f181e8f9b87e2edb629"
+    },
+    {
+      "path": "public/icons.mjs",
+      "bytes": 2076,
+      "sha256": "0cb149079d7feebaf269930b8b04465226ff8485d9c1ae0fb80dc3ba0deef933"
+    },
+    {
+      "path": "public/image-cache.mjs",
+      "bytes": 11765,
+      "sha256": "050e545b269fae0df9bd74ee7bbc89029456ae275eb30c8078aabf4e7ca7c14b"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 698,
+      "sha256": "78b5fb08e8c2f64161cdc62b40451590a765e483d7fe0d838d6042fa87e9796f"
+    },
+    {
+      "path": "public/ledger.mjs",
+      "bytes": 6267,
+      "sha256": "c73d10badac5351f619b7a62f4cded0fd89658fff28c368fbaeef2c8ced07024"
+    },
+    {
+      "path": "public/maker.mjs",
+      "bytes": 1330,
+      "sha256": "73f6003806cd24f29525de87691333a9759bd08e8c9e9b31a11b8f2da3247cec"
+    },
+    {
+      "path": "public/market-feed.mjs",
+      "bytes": 1971,
+      "sha256": "aae35290458364707358ddc6a757635572428ece4e20fbcf120b9e3b92c25768"
+    },
+    {
+      "path": "public/news-snapshot.json",
+      "bytes": 24026,
+      "sha256": "f2edfffe9bf4ef45cc5700134ccdd725e848ac4363c24a15c7b82342459d5678"
+    },
+    {
+      "path": "public/snapshot.json",
+      "bytes": 3525938,
+      "sha256": "1408d329b7880c6ef333846b1958727155a4972b8fefaff111b8b3ec58c08a70"
+    },
+    {
+      "path": "public/sound.mjs",
+      "bytes": 280,
+      "sha256": "9a06856057a180c53c100cdb60a32582d9fbd90e4b306c9f73dce97277485504"
+    },
+    {
+      "path": "public/style.css",
+      "bytes": 108482,
+      "sha256": "43790b116538ff8e532330f47f89d31c45c65d876b2b23b8bf7f1ebcf277d0a5"
+    },
+    {
+      "path": "server.py",
+      "bytes": 20402,
+      "sha256": "4937866d29b157d6ed8c48bea8bdb40e01458a0ec67cf4734a46db6c1e25cce0"
+    },
+    {
+      "path": "tests/ledger.test.mjs",
+      "bytes": 5412,
+      "sha256": "40e8eac58ea82497fc3300585f77e9b7076fc028428d63b7c123fcf124589da3"
+    },
+    {
+      "path": "tests/maker.test.mjs",
+      "bytes": 2167,
+      "sha256": "7d80c869c53b427fffd8ea864cda27fd148fe7c0d38ad97d52464f6e2948883b"
+    },
+    {
+      "path": "tests/market-feed.test.mjs",
+      "bytes": 2409,
+      "sha256": "08fdbf81231ec4eab45785af7b6ce1070f2297b0b7ce9c796b731b2c00a451f2"
+    }
+  ]
+}
