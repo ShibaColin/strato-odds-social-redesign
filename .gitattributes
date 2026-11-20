@@ -1,8 +1,0 @@
-# Preserve the exact reference bytes on checkout, including platforms with core.autocrlf.
-reference/** -text
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.webp binary
-*.wav binary
-*.woff2 binary

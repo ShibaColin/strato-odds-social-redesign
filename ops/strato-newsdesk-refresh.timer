@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh STRATO Newsdesk every minute
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+Persistent=true
+Unit=strato-newsdesk-refresh.service
+
+[Install]
+WantedBy=timers.target

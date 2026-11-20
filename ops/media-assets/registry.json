@@ -1,0 +1,164 @@
+[
+  {
+    "key": "JENSEN",
+    "file": "Jen-Hsun Huang 2025.jpg",
+    "localpath": "/private/tmp/newsdesk-clean-assets/jensen.jpg",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
+    "downloadURL": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jen-Hsun_Huang_2025.jpg",
+    "credit": "The White House",
+    "license": "Public domain",
+    "year": "2025",
+    "visibleCreditRequired": false
+  },
+  {
+    "key": "JENSEN_CC0",
+    "file": "JensenHuangSC18.jpg",
+    "localpath": "/private/tmp/newsdesk-clean-assets/jensen_cc0.jpg",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:JensenHuangSC18.jpg",
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/JensenHuangSC18.jpg/1920px-JensenHuangSC18.jpg",
+    "credit": "Raysonho / Open Grid Scheduler",
+    "license": "CC0",
+    "year": "2018",
+    "visibleCreditRequired": false
+  },
+  {
+    "key": "ETH",
+    "file": "Ethereum logo.svg",
+    "localpath": "/private/tmp/newsdesk-clean-assets/eth.png",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Ethereum_logo.svg",
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ethereum_logo.svg/1920px-Ethereum_logo.svg.png",
+    "credit": "Ethereum",
+    "license": "Public domain",
+    "year": null,
+    "visibleCreditRequired": false
+  },
+  {
+    "key": "NVDA_WHITE",
+    "localpath": "/private/tmp/newsdesk-clean-assets/nvidia-white.png",
+    "sourceURL": "https://nvidianews.nvidia.com/multimedia/corporate/nvidia-logos",
+    "downloadURL": "https://iprsoftwaremedia.com/219/files/202512/nvidia-logo-vert-1cwht.png?download=true",
+    "credit": "NVIDIA newsroom",
+    "license": "Official editorial media asset; NVIDIA trademark rights retained",
+    "visibleCreditRequired": false,
+    "preserveArtwork": true
+  },
+  {
+    "key": "CASH",
+    "file": "Pexels photo 545064",
+    "localpath": "/private/tmp/newsdesk-clean-assets/cash.jpg",
+    "sourceURL": "https://www.pexels.com/photo/photography-of-one-us-dollar-banknotes-545064/",
+    "downloadURL": "https://images.pexels.com/photos/545064/pexels-photo-545064.jpeg",
+    "credit": "Burst / Pexels",
+    "license": "Pexels License (free use, attribution not required)",
+    "licenseURL": "https://www.pexels.com/license/",
+    "year": "2017",
+    "visibleCreditRequired": false
+  },
+  {
+    "key": "TRUMP_2017",
+    "file": "trump-2017.jpg",
+    "localpath": "/private/tmp/newsdesk-clean-assets/trump-2017.jpg",
+    "sourceURL": "https://trumpwhitehouse.archives.gov/people/donald-j-trump/",
+    "downloadURL": "https://trumpwhitehouse.archives.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait.jpg",
+    "credit": "The White House",
+    "license": "Public domain, official U.S. government photograph",
+    "year": "2017",
+    "visibleCreditRequired": false
+  },
+  {
+    "key": "TRUMP",
+    "file": "trump-current.jpg",
+    "localpath": "/private/tmp/newsdesk-clean-assets/trump-current.jpg",
+    "sourceURL": "https://www.whitehouse.gov/administration/donald-j-trump/",
+    "downloadURL": "https://www.whitehouse.gov/wp-content/uploads/2026/01/President-Donald-Trump-Official-Presidential-Portrait.png-1-1.jpg",
+    "credit": "The White House",
+    "license": "Public domain, official U.S. government photograph",
+    "year": "2025",
+    "visibleCreditRequired": false
+  },
+  {
+    "key": "JENSEN_ALT",
+    "file": "jensen-alternate.jpg",
+    "localpath": "/private/tmp/newsdesk-variation-assets/jensen-alternate.jpg",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:JensenHuangSC18.jpg",
+    "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/JensenHuangSC18.jpg/1920px-JensenHuangSC18.jpg",
+    "credit": "Raysonho / Open Grid Scheduler",
+    "license": "CC0",
+    "year": "2018",
+    "visibleCreditRequired": false,
+    "topicTags": [
+      "jensen huang",
+      "nvidia leadership"
+    ],
+    "dimensions": [
+      1920,
+      1272
+    ],
+    "selectionNote": "2018 event portrait. Generic Jensen identity only, not a photograph of a current event.",
+    "localfile": "jensen-alternate.jpg"
+  },
+  {
+    "key": "TRUMP_ALT",
+    "file": "trump-alternate.jpg",
+    "localpath": "/private/tmp/newsdesk-variation-assets/trump-alternate.jpg",
+    "sourceURL": "https://trumpwhitehouse.archives.gov/people/donald-j-trump/",
+    "downloadURL": "https://trumpwhitehouse.archives.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait.jpg",
+    "credit": "The White House",
+    "license": "Public domain, official U.S. government photograph",
+    "year": "2017",
+    "visibleCreditRequired": false,
+    "topicTags": [
+      "donald trump"
+    ],
+    "dimensions": [
+      2250,
+      2850
+    ],
+    "selectionNote": "2017 official portrait. Generic Trump identity only, not a photograph of a current event.",
+    "localfile": "trump-alternate.jpg"
+  },
+  {
+    "key": "CASH_ALT",
+    "file": "cash-stacks.jpg",
+    "localpath": "/private/tmp/newsdesk-variation-assets/cash-stacks.jpg",
+    "sourceURL": "https://www.pexels.com/photo/15206825/",
+    "downloadURL": "https://images.pexels.com/photos/15206825/pexels-photo-15206825.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    "credit": "Mark Youso / Pexels",
+    "license": "Pexels License (free use, attribution not required)",
+    "licenseURL": "https://www.pexels.com/license/",
+    "visibleCreditRequired": false,
+    "topicTags": [
+      "cash",
+      "dollars",
+      "earnings",
+      "revenue"
+    ],
+    "dimensions": [
+      1920,
+      1280
+    ],
+    "localfile": "cash-stacks.jpg"
+  },
+  {
+    "key": "CHIPS",
+    "file": "circuit-board.jpg",
+    "localpath": "/private/tmp/newsdesk-variation-assets/circuit-board.jpg",
+    "sourceURL": "https://www.pexels.com/photo/1448561/",
+    "downloadURL": "https://images.pexels.com/photos/1448561/pexels-photo-1448561.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    "credit": "ClickerHappy / Pexels",
+    "license": "Pexels License (free use, attribution not required)",
+    "licenseURL": "https://www.pexels.com/license/",
+    "visibleCreditRequired": false,
+    "topicTags": [
+      "semiconductors",
+      "electronics manufacturing",
+      "computer hardware"
+    ],
+    "dimensions": [
+      1920,
+      1270
+    ],
+    "selectionNote": "Generic electronic circuit photograph. Use for broad semiconductor/electronics stories; do not imply this is a specific NVIDIA GPU or production facility.",
+    "localfile": "circuit-board.jpg"
+  }
+]

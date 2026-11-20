@@ -1,0 +1,25 @@
+[Unit]
+Description=STRATO Newsdesk crypto market snapshots
+Wants=network-online.target
+After=network-online.target
+[Service]
+EnvironmentFile=-/etc/strato-newsdesk/newsdesk.env
+Type=oneshot
+DynamicUser=yes
+WorkingDirectory=/opt/strato-newsdesk
+ExecStart=/usr/bin/python3 -B /opt/strato-newsdesk/newsdesk_crypto.py
+LoadCredential=sites-service-token:/etc/strato-newsdesk/sites-service-token
+LoadCredential=metals-ingest-key:/etc/strato-newsdesk/metals-ingest-key
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+TimeoutStartSec=75
+MemoryMax=96M
+CPUQuota=10%
+Nice=10

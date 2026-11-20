@@ -1,0 +1,11 @@
+# Copy to .dev.vars for local development; never commit the filled-in file.
+EDITORIAL_PIPELINE=local
+# Required for every private job/write/MCP request. Store only SHA256(key) here.
+METALS_INGEST_SHA256=
+# Optional: enable only for your own bot and chat.
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
+TELEGRAM_BOT_USERNAME=
+# Optional alternative writing provider.
+OPENAI_API_KEY=
+OPENAI_MODEL=

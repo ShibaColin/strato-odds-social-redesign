@@ -1,0 +1,10 @@
+[Unit]
+Description=Refresh crypto screener every minute
+[Timer]
+OnBootSec=45s
+OnUnitActiveSec=60s
+AccuracySec=5s
+Persistent=true
+Unit=strato-newsdesk-crypto.service
+[Install]
+WantedBy=timers.target

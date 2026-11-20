@@ -1,0 +1,10 @@
+[Unit]
+Description=Refresh verified tokenized metal supply every five minutes
+[Timer]
+OnBootSec=45s
+OnUnitActiveSec=5min
+AccuracySec=10s
+Persistent=true
+Unit=strato-newsdesk-metals.service
+[Install]
+WantedBy=timers.target

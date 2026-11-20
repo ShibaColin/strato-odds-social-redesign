@@ -1,0 +1,8 @@
+[Unit]
+Description=Continuously prepare newsdesk posts and images
+[Timer]
+OnBootSec=20
+OnUnitInactiveSec=15
+AccuracySec=1
+[Install]
+WantedBy=timers.target

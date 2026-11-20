@@ -1,64 +1,59 @@
-# STRATO Odds · design-to-production handoff
+# STRATO Newsdesk
 
-This repository contains the **exact runnable local design reference** and the instructions an AI coding agent needs to implement that experience in the real STRATO Odds application.
+Public reader terminal for crypto, stocks, commodities and geopolitical news, with an independent private Telegram/editorial pipeline.
 
-It is a handoff repository, not a deployment of the real trading application. The production repository was not available through the connected GitHub account when this package was prepared. No production files or contracts have been inspected or changed. Do not mistake a new branch in this repository for a branch already based on production.
+This `newsdesk` branch contains the complete Newsdesk project at the repository root. The repository's `main` branch is a separate Odds project. Clone this branch explicitly:
 
-Public repository: https://github.com/ShibaColin/strato-odds-social-redesign
+```sh
+git clone --branch newsdesk --single-branch https://github.com/ShibaColin/strato-odds-social-redesign.git strato-newsdesk
+cd strato-newsdesk
+npm ci
+cp .dev.vars.example .dev.vars
+npx wrangler d1 execute site-creator-d1 --local --config wrangler.local.jsonc --file drizzle/0000_good_lester.sql
+npm run dev -- --host 127.0.0.1 --port 5173
+```
 
-Handoff branch: `codex/odds-social-redesign-handoff`. This is separate from the real application repository.
-
-## Start here
-
-1. **Run the reference:** `python3 reference/server.py --port 4173`, then open http://127.0.0.1:4173. Python 3 and curl are required. There are no npm dependencies.
-2. **Give your AI** [AI_IMPLEMENTATION_PROMPT.md](AI_IMPLEMENTATION_PROMPT.md), this entire repository, and access to the real application repository. The AI must inspect the real app first.
-3. Use [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md) as the work sequence and [docs/ACCEPTANCE.md](docs/ACCEPTANCE.md) as the completion criteria.
-4. Compare the implementation with `reference/public/` and the screenshots in `design/`. Keep the exact official logos, Inter font, WAV sounds and approved visual hierarchy.
-
-**If you only want to explore the design:** double-click `reference/Start-STRATO-Odds.command` on macOS, or run the Python command above. The reference account starts with simulated USDST; it never submits a real order or wallet transaction.
+Use Node.js 22.13 or newer. Open http://127.0.0.1:5173. A fresh clone has no production database, history or credentials. The UI can load official TradingView charts/calendar immediately; the shared news feed and native crypto/metals snapshots require your own initialized D1 and collectors below.
 
 ## What is included
 
-| Path | Purpose |
-|---|---|
-| `reference/` | Byte-identical application source, original assets, live read-only feeds, offline snapshots and 21 tests from the reviewed local version |
-| `AGENTS.md` | Rules for an AI working in this handoff repository |
-| `AI_IMPLEMENTATION_PROMPT.md` | Copy/paste task for the AI working in the production repository |
-| `docs/DESIGN_SPEC.md` | Layout, tokens, components and interaction map back to the exact source |
-| `docs/IMPLEMENTATION_PLAN.md` | Ordered migration tasks with explicit production boundaries |
-| `docs/INTEGRATION_CONTRACTS.md` | Required adapter semantics and state models; not invented existing production endpoints |
-| `docs/ACCEPTANCE.md` | Visual, functional, live-data and production-readiness checks |
-| `docs/PROVENANCE.md` | What is real data, simulated state, original branding and third-party reference media |
-| `design/` | Screenshots of the current reference; changing market values are not golden assertions |
-| `REFERENCE_MANIFEST.json` | SHA-256 hashes of every file in `reference/` |
-| `scripts/verify_reference.py` | Verifies exact reference bytes, required files, syntax and the test suite |
-| `scripts/install_handoff.py` | Copies only this isolated handoff folder into a production checkout; dry-run by default |
-| `docs/IMPORT_INTO_PRODUCT_REPO.md` | Safe branch/import steps for the real repository |
+- Responsive read-only news terminal and bookmarks, topic filters, light/dark themes.
+- Official embedded TradingView tools and worldwide economic calendar, Actual/Forecast/Previous releases.
+- Native crypto screener with search/sort, official provider logos and in-desk chart navigation.
+- Bitcoin halving, US debt, tokenized gold/silver supply and separate historical USD benchmark.
+- STRATO native asset/network metrics and relevant active prediction-market matching.
+- News ingestion, deduplication, private English editorial rewrites, Telegram media and separate market replies.
+- Python collectors, systemd service/timer examples, SQLite/D1 schema, and required original media with provenance.
 
-## Current experience
+## Local database and private collectors
 
-Topics across the header and a menu for app sections; large banners and cards; fixed date/volume slots and a separate Live badge; a gold Rewards header action and consistent gold incentive accents. Buy/Sell/Earn detail pages include real probability history, a 15-minute Live view, fine autoscale, trader entry overlays, live order books, a unified ticket/spin-progress block and easy liquidity entry. Supported crypto price questions also show a separate real USD spot-price strip.
+The quickstart applies the checked-in schema to local D1 using `wrangler.local.jsonc`; its database name matches the Vite local binding. For a real deployment, create a new D1 database and apply that SQL before starting the updater. `db/schema.ts` is the source schema.
 
-Social includes theses, conviction and attached markets, replies, following, saved posts, reposts, market proposals/votes and real RSS news. Traders has day/month/all-time profit, volume and win-rate views. Rewards has a wheel, maker incentives, missions, referral and research incentives. Portfolio contains positions, orders, liquidity, activity and export. Sound is opt-in and uses three original STRATO bell motifs.
+Generate a separate 32-byte hexadecimal server key. Put its SHA256 hex digest in `METALS_INGEST_SHA256` in `.dev.vars` (or your deployment's secret storage). Send the original key only in `X-Newsdesk-Metals-Key` to private endpoints. Never send this key to the browser.
 
-![Current market cards and gold incentives](design/markets-desktop.jpg)
+A fresh authenticated ingest can be started with `POST /api/jobs/bootstrap` and the key header. With `EDITORIAL_PIPELINE=local`, use the editorial worker to prepare text/media. For text-only source processing, leave that variable unset. Telegram remains disabled until you provide your own bot token and recipient. Do not reuse the author's live server, bot, Site identity or credentials.
 
-More design views: [desktop and mobile screenshots](design/README.md).
-
-## Essential production distinction
-
-Live public market quotes, history, order books, spot ticks and RSS are connected. **Balances, order execution, local LP quotes, social users/posts, trader entries, leaderboards, reward budgets and awards are simulation fixtures.** The optional local X adapter is not production OAuth/account infrastructure. Instagram exports a sharecard; it does not auto-publish.
-
-The production task is to preserve this design while wiring truthful production state into the real app's architecture. It is not to copy a Python localhost broker or a localStorage ledger into production. The production app's existing wallets, signing, chain indexers, oracle/resolution source, escrow and settlement remain authoritative.
-
-## Verify
+## Build and deploy your own instance
 
 ```sh
-python3 scripts/verify_reference.py --run-tests
+npx tsc --noEmit
+npm run build
 ```
 
-Node.js 18+ is required for the 21 tests. The Python script verifies the manifest and JavaScript syntax without third-party Python packages. Visual checks are documented in `docs/ACCEPTANCE.md`.
+The application is a Vinext/React Cloudflare Worker, not a static-only export. The Worker entry is `worker/index.ts`; `vite.config.ts` sets local D1 emulation. Production needs a D1 binding named `DB`, its own Worker deployment/configuration, and configured runtime secrets. `dist/server` contains the generated build. Public GET routes serve the reader; job, post, settings, writing and MCP operations require the private key independently of site visibility.
 
-## Sharing and branches
+`.openai/hosting.json` deliberately has no original Site project ID. If deploying through Sites, register your own Site and use its returned identity. If deploying directly to Cloudflare, supply your own Wrangler account/database configuration. Local preview does not require the author's Sites account.
 
-The handoff has its own Git history and branch `codex/odds-social-redesign-handoff`. A ZIP can be sent directly to developers; it contains all source and assets. A Git bundle preserves the commit and branch and can be cloned without GitHub. Instructions for importing under `design-handoff/strato-odds-next/` are included. A production PR should be made from the real repository's current integration branch after inspection; do not merge unrelated standalone histories into the application's root.
+## Optional always-on server
+
+`ops/` contains all four collectors (news refresh, editorial/media, crypto, metals) and their hardened systemd units. Install under `/opt/strato-newsdesk`, set `NEWSDESK_ORIGIN` in `/etc/strato-newsdesk/newsdesk.env`, and store credentials in root-only files loaded with systemd `LoadCredential`. Use your own host and SSH identity. The `sites-service-token` credential is needed only for Sites dispatch; direct hosting can leave that file empty while still requiring the independent private key.
+
+The editorial worker needs Python 3, Pillow (`pip install -r ops/requirements.txt`), and Ollama with `qwen3:8b` on localhost:11434. Other collectors use the Python standard library. News refresh runs each minute, crypto attempts each minute and metals refreshes every five minutes. Public provider rate limits may delay updates; timestamps and stale states remain explicit. The app never invents historical ounce supply or sends posts directly to X.
+
+See [server details](ops/SERVER.md), [market research](MARKET-RESEARCH.md), and [implementation history](docs/IMPLEMENTATION-HISTORY.md). Historical notes describe the original hosted deployment; configuration in this branch is intentionally reusable.
+
+## Assets and rights
+
+Official STRATO logos/tokens preserve supplied artwork and proportions. Photo/logo provenance is retained in `ops/media-assets/*registry.json` and `public/metals/SOURCES.json`. Third-party trademarks and media retain their existing rights; a public source branch does not relicense those assets. Review those records when redistributing or replacing media.
+
+No production secrets, live database records, SSH keys, local caches, dependencies or build outputs are included.
